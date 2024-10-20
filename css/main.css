@@ -1,0 +1,10 @@
+body{
+    background-color: rgba(248, 247, 247, 0.712);
+}
+.form{
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    }
+#timerSection{
+        position: fixed;
+        right: 0;
+    }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div id="timerSection" class="text-danger m-5"></div>
+
+                <h2 class="text-center pb-4">Quiz</h2>
+
+                <div id="quizContainer">
+                    <form id="questionForm">
+                        <div id="questionSection" class="mb-4"></div>
+                        <button type="submit" id="submit-btn" class="btn btn-success">Submit Answers</button>
+                    </form>
+                    <div id="resultSection" class="mt-3 text-center"></div>
+                    <div id="retrySection" class="mt-3 text-center"></div>
+                    <button id="submit-all-btn" class="btn btn-primary" style="display: none;">Submit All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="js/quiz.js"></script>
+</body>
+
+</html>

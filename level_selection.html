@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Selection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5 ">
+            <div class="col-md-4  rounded form p-5">
+                <h2 class="text-center">Select Quiz Level</h2>
+                <form id="levelForm">
+                    <div class="form-group mt-5">
+                        <label for="topic">Choose a Topic</label>
+                        <select class="form-control" id="topic" required>
+                            <option hidden>Topic</option>
+                            <option value="Science">Science</option>
+                            <option value="Science">Geography</option>
+                            <option value="General Knowledge">General Knowledge</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="level">Choose a Level</label>
+                        <select class="form-control" id="level" required>
+                            <option hidden>Level</option>
+                            <option value="easy">Easy</option>
+                            <option value="medium">Medium</option>
+                            <option value="hard">Hard</option>
+                        </select>
+                    </div>
+                    <div id="errorMessage" class="text-danger mt-2"></div> 
+                    <button type="submit" class="btn btn-dark btn-block">Start Quiz</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+   <script src="js/level_selection.js"></script>
+</body>
+</html>

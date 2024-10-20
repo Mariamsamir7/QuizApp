@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container ">
+        <div class="row justify-content-center  mt-5 ">
+            <div class="col-md-4 rounded p-5 form mt-5" >
+                <h2 class="text-center hed">Login</h2>
+                <form id="loginForm" >
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" class="form-control" id="username" placeholder="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-dark btn-block mt-4">Login</button>
+                    <div id="loginMessage" class="text-danger mt-2"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/db.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
